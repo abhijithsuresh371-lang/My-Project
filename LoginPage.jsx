@@ -4,10 +4,10 @@ import { CircleUser, ShieldCheck, Lock, ArrowRight } from 'lucide-react';
 
 const LoginPage = ({ onLogin }) => {
   const navigate = useNavigate();
-  const [role, setRole] = useState('admin');
+  const [role, setRole] = useState('');
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('admin123');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const colors = {
