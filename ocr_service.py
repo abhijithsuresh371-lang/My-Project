@@ -8,7 +8,7 @@ import pikepdf
 import fitz 
 
 # [WARNING] FREE API KEY (Make sure this is valid!)
-API_KEY = 'K81663785688957'
+API_KEY = 'Your API Key'
 
 # ==========================================
 # 0. LOGGING HELPER
