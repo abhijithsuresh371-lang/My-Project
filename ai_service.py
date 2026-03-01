@@ -7,7 +7,7 @@ from services.certificate_templates import get_template
 from services import db_services 
 
 # [CONFIG] CONFIGURATION
-SARVAM_API_KEY = "sk_pi3rnc6q_Qtkz7K3qWVAy3hfk8rsCCgR5"  
+SARVAM_API_KEY = "Your API Key"  
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
 
 # [INFO] PRESERVED CONTEXT: YUVAKSHETRA COLLEGE
