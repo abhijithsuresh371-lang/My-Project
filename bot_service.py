@@ -18,7 +18,7 @@ class DivaChatbot:
         # Configuration
         # NOTE: Ideally use os.getenv("SARVAM_API_KEY") in production.
         # For now, using the key found in old ai_service.py or environment.
-        self.api_key = os.getenv("SARVAM_API_KEY", "sk_pi3rnc6q_Qtkz7K3qWVAy3hfk8rsCCgR5") 
+        self.api_key = os.getenv("SARVAM_API_KEY", "Your API Key") 
         self.api_url = "https://api.sarvam.ai/v1/chat/completions"
         self.college_context = self._get_college_context()
         self.system_identity = """
